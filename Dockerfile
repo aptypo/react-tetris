@@ -1,5 +1,5 @@
 FROM node:alpine
-EXPOSE 3000
+EXPOSE 8080
 RUN mkdir /app
 WORKDIR /app
 COPY package.json /app
